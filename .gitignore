@@ -1,0 +1,71 @@
+# Build artifacts
+build/
+*.o
+*.elf
+*.gba
+*.bin
+*.sav
+*.ss*
+
+# ROM files (don't commit actual ROMs)
+baserom.gba
+pokeemerald.gba
+*.gb
+*.gbc
+*.rom
+
+# Emulator files
+*.sav
+*.ss1
+*.ss2
+*.ss3
+*.ss4
+*.ss5
+*.ss6
+*.ss7
+*.ss8
+*.ss9
+*.sgm
+*.state
+*.st*
+
+# Backup files
+*~
+*.bak
+*.orig
+*.swp
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# IDE files
+.vscode/launch.json.local
+.idea/
+*.sublime-*
+
+# Dependency files
+*.d
+
+# Tool outputs
+sound/cry_tables.inc.bak
+
+# Log files
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Local environment
+.env
+.env.local
+
+# Project-specific ignores
+logs/
+*.patch
+*.diff

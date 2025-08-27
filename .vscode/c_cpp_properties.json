@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "GBA Cross-Compilation",
+            "includePath": [
+                "${workspaceFolder}/include/**",
+                "${workspaceFolder}/gflib/**",
+                "${workspaceFolder}/constants/**",
+                "/usr/include/**",
+                "/usr/arm-none-eabi/include/**"
+            ],
+            "defines": [
+                "MODERN",
+                "__ARM_ARCH_4T__",
+                "__GNUC__",
+                "__thumb__"
+            ],
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-arm",
+            "compilerArgs": [
+                "-mthumb",
+                "-mthumb-interwork",
+                "-mcpu=arm7tdmi",
+                "-mtune=arm7tdmi",
+                "-mno-long-calls"
+            ]
+        }
+    ],
+    "version": 4
+}

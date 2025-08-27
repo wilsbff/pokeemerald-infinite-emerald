@@ -1,0 +1,28 @@
+# ABOUTME: Editor configuration for consistent code formatting across editors
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+[*.{c,h}]
+indent_size = 4
+
+[*.{s,inc}]
+indent_style = tab
+indent_size = 8
+
+[*.{json,md}]
+indent_size = 2
+
+[Makefile]
+indent_style = tab
+indent_size = 8
+
+[*.{yml,yaml}]
+indent_size = 2

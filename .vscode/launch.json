@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch ROM in mGBA",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/pokeemerald-expansion/pokeemerald.gba",
+            "preLaunchTask": "Build ROM",
+            "console": "integratedTerminal"
+        }
+    ]
+}
