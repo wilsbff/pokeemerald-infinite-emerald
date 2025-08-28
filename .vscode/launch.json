@@ -5,9 +5,12 @@
             "name": "Launch ROM in mGBA",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceFolder}/pokeemerald-expansion/pokeemerald.gba",
+            "program": "${workspaceFolder}/launch_mgba.js",
             "preLaunchTask": "Build ROM",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
         }
     ]
 }

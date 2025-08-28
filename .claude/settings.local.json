@@ -2,9 +2,19 @@
   "permissions": {
     "allow": [
       "WebSearch",
-      "mcp__fetch__fetch"
+      "mcp__fetch__fetch",
+      "mcp__git__git_status",
+      "Bash(test:*)",
+      "Bash(cat:*)",
+      "Read(/home/wilst/projects/pokeemerald-infinite-emerald/**)",
+      "Read(/home/wilst/projects/pokeemerald-infinite-emerald/include/**)"
     ],
     "deny": [],
-    "ask": []
+    "ask": [],
+    "additionalDirectories": [
+      "/home/wilst/projects/infinite-emerald-backup",
+      "/home/wilst/projects/pokeemerald-infinite-emerald/include",
+      "/home/wilst/projects/pokeemerald-infinite-emerald"
+    ]
   }
 }
